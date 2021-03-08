@@ -29,6 +29,19 @@ public class Student {
     return courses;
   }
 
+  public static CriterionOfStudent getEnthusiasticCriterion(int threshold) {
+    return s -> s.courses.size() > threshold;
+  }
+
+  // captured/closured local variables must be either final, or "effectively final"
+  public static CriterionOfStudent getSmartCriterion(/*final*/ int[] threshold) {
+//    return s -> s.getGrade() > 80;
+//    threshold++;
+    threshold[0] += 10;
+    int [] myThresh = threshold.clone();
+    return s -> s.grade > myThresh[0];
+  }
+
   @Override
   public String toString() {
     return "Student{" +
