@@ -2,6 +2,7 @@ package mutating;
 
 import java.util.Optional;
 import java.util.concurrent.ThreadLocalRandom;
+import java.util.stream.DoubleStream;
 
 class Average {
   private double sum = 0;
@@ -36,7 +37,11 @@ class Average {
 public class AverageReduce {
   public static void main(String[] args) {
     long start = System.nanoTime();
-    ThreadLocalRandom.current().doubles(8_000_000_000L, -Math.PI, +Math.PI)
+//    ThreadLocalRandom.current().doubles(8_000_000_000L, -Math.PI, +Math.PI)
+//    DoubleStream.generate(() -> ThreadLocalRandom.current().nextDouble(-Math.PI, +Math.PI))
+    DoubleStream.iterate(0.0, x -> ThreadLocalRandom.current().nextDouble(-Math.PI, +Math.PI))
+        .unordered()
+        .limit(2_000_000_000L)
         .parallel()
 //        .collect(() -> new Average(), (r, d) -> r.include(d), (r1, r2) -> r1.merge(r2))
         .collect(Average::new, Average::include, Average::merge)

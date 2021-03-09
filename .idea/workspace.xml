@@ -5,11 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a49440f1-6126-4d52-8efb-dcbb1a88896f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/averages/AverageReduce.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mutating/AverageReduce.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/collection/Examples.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/spark/Concordance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/streams/Concordance.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/usestreams/InfiniteExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/usestreams/InfiniteExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/usestreams/InfiniteExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/usestreams/InfiniteExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cleanedstudents/School.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cleanedstudents/School.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mutating/AverageReduce.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mutating/AverageReduce.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cleanedstudents/School.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cleanedstudents/School.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +60,7 @@
       <recent name="$PROJECT_DIR$/src/main/java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AverageReduce (1)">
+  <component name="RunManager" selected="Application.Concordance (1)">
     <configuration name="AverageReduce (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="mutating.AverageReduce" />
       <module name="SafariFunctionalJava" />
@@ -86,12 +88,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InfiniteExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="usestreams.InfiniteExample" />
+    <configuration name="Concordance (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="spark.Concordance" />
       <module name="SafariFunctionalJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="usestreams.*" />
+          <option name="PATTERN" value="spark.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,12 +101,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimpleSparkV5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="simple.SimpleSparkV5" />
+    <configuration name="Concordance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="streams.Concordance" />
       <module name="SafariFunctionalJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="simple.*" />
+          <option name="PATTERN" value="streams.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,12 +114,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UseSuperIterable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="superiterable.UseSuperIterable" />
+    <configuration name="Examples" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collection.Examples" />
       <module name="SafariFunctionalJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="superiterable.*" />
+          <option name="PATTERN" value="collection.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,18 +129,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.AverageReduce" />
-      <item itemvalue="Application.InfiniteExample" />
-      <item itemvalue="Application.SimpleSparkV5" />
-      <item itemvalue="Application.UseSuperIterable" />
       <item itemvalue="Application.AverageReduce (1)" />
+      <item itemvalue="Application.Examples" />
+      <item itemvalue="Application.Concordance" />
+      <item itemvalue="Application.Concordance (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Concordance (1)" />
+        <item itemvalue="Application.Concordance" />
+        <item itemvalue="Application.Examples" />
         <item itemvalue="Application.AverageReduce (1)" />
         <item itemvalue="Application.AverageReduce" />
-        <item itemvalue="Application.InfiniteExample" />
-        <item itemvalue="Application.UseSuperIterable" />
-        <item itemvalue="Application.SimpleSparkV5" />
       </list>
     </recent_temporary>
   </component>
@@ -193,7 +195,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615306838659</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Day Two Break Two">
+      <created>1615312156960</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1615312156960</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -214,6 +223,7 @@
     <MESSAGE value="Day One Break Two" />
     <MESSAGE value="Day One Final" />
     <MESSAGE value="Day Two Break One" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day Two Break One" />
+    <MESSAGE value="Day Two Break Two" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day Two Break Two" />
   </component>
 </project>
