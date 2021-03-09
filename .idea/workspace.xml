@@ -5,12 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a49440f1-6126-4d52-8efb-dcbb1a88896f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/PrideAndPrejudice.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/usestreams/InfiniteExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cleanedstudents/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cleanedstudents/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/superiterable/SuperIterable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/superiterable/SuperIterable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/superiterable/UseSuperIterable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/superiterable/UseSuperIterable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/averages/AverageReduce.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mutating/AverageReduce.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/usestreams/InfiniteExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/usestreams/InfiniteExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/usestreams/InfiniteExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/usestreams/InfiniteExample.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +45,7 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/cleanedstudents" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/mutating" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -54,43 +53,45 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/mutating" />
       <recent name="$PROJECT_DIR$/src/main/java/cleanedstudents" />
       <recent name="$PROJECT_DIR$/src/main/java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.InfiniteExample">
+  <component name="RunManager" selected="Application.AverageReduce (1)">
+    <configuration name="AverageReduce (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mutating.AverageReduce" />
+      <module name="SafariFunctionalJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mutating.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AverageReduce" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="averages.AverageReduce" />
+      <module name="SafariFunctionalJava" />
+      <option name="VM_PARAMETERS" value="-XX:+PrintCompilation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="averages.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="InfiniteExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="usestreams.InfiniteExample" />
       <module name="SafariFunctionalJava" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="usestreams.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="School (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cleanedstudents.School" />
-      <module name="SafariFunctionalJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cleanedstudents.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="School" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="students.School" />
-      <module name="SafariFunctionalJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="students.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,13 +125,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.AverageReduce" />
+      <item itemvalue="Application.InfiniteExample" />
+      <item itemvalue="Application.SimpleSparkV5" />
+      <item itemvalue="Application.UseSuperIterable" />
+      <item itemvalue="Application.AverageReduce (1)" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AverageReduce (1)" />
+        <item itemvalue="Application.AverageReduce" />
         <item itemvalue="Application.InfiniteExample" />
         <item itemvalue="Application.UseSuperIterable" />
         <item itemvalue="Application.SimpleSparkV5" />
-        <item itemvalue="Application.School (1)" />
-        <item itemvalue="Application.School" />
       </list>
     </recent_temporary>
   </component>
@@ -178,7 +186,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615230168779</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Day Two Break One">
+      <created>1615306838659</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1615306838659</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -198,6 +213,7 @@
     <MESSAGE value="Day One Break One" />
     <MESSAGE value="Day One Break Two" />
     <MESSAGE value="Day One Final" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day One Final" />
+    <MESSAGE value="Day Two Break One" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day Two Break One" />
   </component>
 </project>
