@@ -32,6 +32,7 @@ public class SuperIterable<E> implements Iterable<E> {
     return new SuperIterable<>(rv);
   }
 
+  // Functor
   public <F> SuperIterable<F> map(Function<E, F> op) {
     List<F> rv = new ArrayList<>();
     for (E s : self) {
@@ -41,6 +42,7 @@ public class SuperIterable<E> implements Iterable<E> {
     return new SuperIterable<>(rv);
   }
 
+  // Monad
   public <F> SuperIterable<F> flatMap(Function<E, SuperIterable<F>> op) {
     List<F> rv = new ArrayList<>();
     for (E s : self) {
@@ -50,6 +52,11 @@ public class SuperIterable<E> implements Iterable<E> {
       }
     }
     return new SuperIterable<>(rv);
+  }
+
+  public SuperIterable<E> peek(Consumer<E> op) {
+    self.forEach(op);
+    return this;
   }
 
 //  public SuperIterable<E> distinct() {

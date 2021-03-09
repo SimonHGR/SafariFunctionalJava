@@ -25,6 +25,10 @@ public class Student {
     return grade;
   }
 
+  public Student withGrade(int g) {
+    return new Student(this.name, g, courses);
+  }
+
   public List<String> getCourses() {
     return courses;
   }
